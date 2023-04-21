@@ -1,0 +1,107 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+body {
+    color: #1e0f1c;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+h1, h2 {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: "Open Sans";
+}
+
+h1 {
+    color:#B46060;
+    font-size: 40px;
+    font-weight: 900px;
+    text-shadow: 0 0 5px grey;
+}
+
+h2 {
+    color:#cf6464;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-pink {
+    background-color: #f3b4c1;
+    text-align: center;
+    border-radius: 7px;
+    padding: 40px;
+    margin: 25px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid grey;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+#maya-picture {
+    height: 200px;
+    border-radius: 50%;
+    width: 180px;
+}
+
+.btn-pink {
+  background-color: #f4b0b0;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding: 15px 20px;
+}
+
+.btn-pink:hover {
+    background-color: #f07e7e;
+}
+
+#intro {
+    margin-bottom: 60px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .list-inline li {
+    display: inline;
+  }
+  
+  .list-inline i {
+    font-size: 50px;
+    color: grey;
+    letter-spacing: 30px;
+  }
+
+  
+  .list-inline i:hover {
+    color: #f07e7e ;
+    font-size: 70px;
+  }
+
+  .card-inline{
+    list-style: none;
+  }
+
+
+
+  
